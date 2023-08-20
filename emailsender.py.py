@@ -8,9 +8,9 @@ def sendEmail(to, content):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
     server.starttls()
-    server.login('firstplacejan91889@gmail.com', 'farhanfathima')
+    server.login('enter your email here', 'enter your email password here')
     # enter sender email ID and password, seperated with "," , in the above line
-    server.sendmail('firstplacejan91889@gmail.com', to, content)
+    server.sendmail('enter your email here', to, content)
     # enter the receivers email, in the above statement
     server.close()
 
